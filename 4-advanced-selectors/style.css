@@ -1,0 +1,60 @@
+h2 {
+  color: red;
+}
+
+.subtitle {
+  color: blue;
+}
+
+#services {
+  color: green;
+}
+
+li:first-child {
+  color: steelblue;
+}
+
+li:last-child {
+  color: darkcyan;
+}
+
+li:nth-child(2) {
+  color: blueviolet;
+}
+
+li:only-child {
+  color: coral;
+}
+
+/* Not going to style nothing */
+td:only-child {
+  color: purple;
+}
+
+/* #google-link:link {
+  color: blue;
+}
+
+#google-link:visited {
+  color: red;
+} */
+
+/* Every anchor tag follows h2  if its in the same parent*/
+h2 + a {
+  color: green;
+}
+
+/* Every button is after a textarea */
+textarea ~ button {
+  color: purple;
+}
+
+/* Child selector */
+ul > li {
+  color: blue;
+}
+
+/* Decendant selector so if its a direct child of ul */
+ul li {
+  color: green;
+}
